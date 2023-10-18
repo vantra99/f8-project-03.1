@@ -830,7 +830,7 @@ header {
 .feature-desc {
   display: flex;
   margin: 0 auto;
-  width: 547px;
+  width: 536px;
   color: var(--text-color-light-gray);
   text-align: center;
   font-size: 1.6rem;
@@ -952,12 +952,18 @@ header {
   height: 26px;
   border-radius: 20px;
   background: var(--scondery-color-light-green, #e2eddf);
-  padding: 7px 33px 7px 34px;
+  padding: 9px 33px 7px 34px;
   color: #000;
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.2;
+  transition: 0.3s ease;
+}
+
+.blog-item:hover .blog-body__btn {
+  color: var(--scondery-color-light-green);
+  background: var(--primary-color-black-green);
 }
 
 .blog-body__desc {
